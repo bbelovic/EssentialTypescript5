@@ -1,0 +1,17 @@
+{
+	"name": "todo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"run": "echo \"implement me\" && exit 1",
+	"scripts": {
+	   "compile": "tsc",
+	   "run-node": "node dist/index.js"
+	},
+	"keywords": [],
+	"author": "bbelovic",
+	"type": "module",
+	"devDependencies": {
+		"typescript": "5.0.2"
+	}
+
+}
