@@ -1,7 +1,8 @@
 import { TodoItem } from "./todoItem";
 
 export class TodoItemCollection {
-    constructor(public nextId: number, public items: TodoItem[]) {}
+    private nextId: number = 1;
+    constructor(public name: string, public items: TodoItem[]) {}
 
     addTodo(task: string): number {
         while(this.findById(this.nextId)) {
